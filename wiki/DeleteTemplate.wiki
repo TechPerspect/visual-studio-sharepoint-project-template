@@ -1,0 +1,6 @@
+== Template Deletion ==
+  # Open VS 2010 -> Tools -> Extension Manager <br>
+    http://visual-studio-sharepoint-project-template.googlecode.com/svn/Delete1.png
+  # Select your custom template and click Uninstall or Disable as per your desired action <br/> 
+	http://visual-studio-sharepoint-project-template.googlecode.com/svn/Delete2.png
+ 
