@@ -1,0 +1,44 @@
+== ProjectName.UI Detail ==
+
+# This project contains all the common methods or functionality which will be used in all projects like Constants, Common Methods, Enumarators etc.Below Class Diagram show the classes used in ProjectName.Common project.  <br>
+
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/Common.Class.png
+
+
+# Below is the description of classes shown in above class diagram
+
+  1. CommonFunctions - This class contains all the static methods which is generally used in every SharePoint project.
+    Methods -
+
+    GetColumnTypeByFieldGUID -This method will return column type based      on the GUID of that field
+
+    RemoveSpecialNames - This method will remove all the special names which is not allowed in file names
+
+    EscapeCAMLChars - This method will escape CAML character from the XML
+
+    RevertCAMLChars - This method will revert CAML character from the XML
+
+    IsExistsCustomAction - This method will check whether specific custom exists in the web or not.
+
+    GetErrorCodeKey - This method will return error key which is used to display error message on UI
+
+  2. Enums - This class all the enumerators used in the solution
+
+  3. Constants - This class contains all the Constants used in the solution
+
+  4. ElevatedCodeHelper - This class is used to overwrite the SPSecurity.RunWithElevatedPrivileges. You need to call ExecuteElevatedCode method to override SPSecurity. You can take reference of this in Visual WebPart code in UI solution
+  
+
+ 5. ExtensionMethods - This is static class and contains all the extended method which is used to bind with different objects
+
+  Methods -
+    Serialise  - This method is extension of Object class. This will serialize respective object in XML string
+
+    DeSerialise - This method is extension of String class, this will return respective XML to the Object
+
+    SaveCustomAttribute, SetCustomAttribute and GetCustomAttribue - These methods are extensions of SPField class. These methods are used to save and get the SPField attributes via reflection
+
+   GetResourceString - This method is extension of String class. This method will get the resource string based on the respective key for that string
+
+   
+   
