@@ -1,0 +1,12 @@
+== Prerequisites == 
+  # Visual Studio 2010 / SharePoint 2010 Environment 
+ 
+== Template Installation ==
+  # Download VSIX file from [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=SharePoint_Project_Template.vsix&can=2&q=#makechanges here]
+  # Double click the downloded file. It will open the POP-UP like below screen shot <br>
+    http://visual-studio-sharepoint-project-template.googlecode.com/svn/Install1.png
+  # Click Install button for installing this template. After installation it will show message as mentioned in below screen shot <br/>
+	http://visual-studio-sharepoint-project-template.googlecode.com/svn/Install2.png
+  # You can verify your newly installed template in Visual Studio by following steps<br/>
+		Open VS 2010 -> File -> New -> Project -> Visual C# -> SharePoint -> 2010
+	<br/> http://visual-studio-sharepoint-project-template.googlecode.com/svn/Install3.png
