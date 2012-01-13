@@ -1,9 +1,4 @@
-[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Installation Installation Steps]
-
-[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/DeleteTemplate UnInstall Steps]
-
-
-== Template Usage ==
+== How to use this template to create your own project? ==
 
   # Open VS 2010 -> File -> New -> Project -> Visual C#-> SharePoint -> 2010 -> Select Template <br/> 
 	http://visual-studio-sharepoint-project-template.googlecode.com/svn/Usage1.png 
