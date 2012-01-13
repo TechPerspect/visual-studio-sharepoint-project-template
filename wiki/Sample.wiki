@@ -1,4 +1,13 @@
  
-= Sample SceenShots =
+= Sample !SceenShots =
 
- 
+ # Below are the sample of different code like error capturing control, custom exception and Code with elevated Privileges. All sample is preconfigured in Sample Visual Weppart.
+
+
+[http://visual-studio-sharepoint-project-template.googlecode.com/svn/Success.png]
+
+[http://visual-studio-sharepoint-project-template.googlecode.com/svn/Error.png]
+
+[http://visual-studio-sharepoint-project-template.googlecode.com/svn/Exception.png]
+
+[http://visual-studio-sharepoint-project-template.googlecode.com/svn/Data.png]
