@@ -16,4 +16,4 @@
 
 [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/EventHandler {ProjectName}.EventHandlers]<br>
 
-[ {ProjectName}.Exceptons]<br>
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Exception {ProjectName}.Exceptons]<br>
