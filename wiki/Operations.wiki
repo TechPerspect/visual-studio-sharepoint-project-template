@@ -7,7 +7,7 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Operations.C
 
 # Below is the description of classes shown in above class diagram
 
- = InstallCustomAction = - This class is used to install all custom actions in SharePoint. It is inheriting from BaseOperation class
+ =InstallCustomAction= - This class is used to install all custom actions in SharePoint. It is inheriting from BaseOperation class
   
   Method <br>
   = RegisterCustomCoreInScriptLink = - This method is used to register custom javascript file in Script Link
