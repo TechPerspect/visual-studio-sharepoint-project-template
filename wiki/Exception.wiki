@@ -1,6 +1,6 @@
 = !ProjectName.Exception Detail ==
 
-# This project contains single class inheriting from Exception class which is user to log message on UI, LogFile or event-viewer based on the parameter  <br>
+# This project contains single class inheriting from Exception class which is user to log message on UI, !LogFile or event-viewer based on the parameter  <br>
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/Exception.Class.png
 
