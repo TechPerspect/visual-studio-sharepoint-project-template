@@ -1,6 +1,6 @@
 = !ProjectName.TimerJobs Detail ==
 
-# This project contains all the TimerJobs classes used to run Timer Jobs in !SharePoint.Below Class Diagram show the classes used in ProjectName.TimerJobs project.  <br>
+# This project contains all the Timer Jobs classes used to run Timer Jobs in !SharePoint.Below Class Diagram show the classes used in !ProjectName.TimerJobs project.  <br>
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/TimerJob.Class.png
 
