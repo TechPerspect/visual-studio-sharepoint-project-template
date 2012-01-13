@@ -1,10 +1,10 @@
-= ProjectName.UI Detail ==
+= !ProjectName.TimerJobs Detail ==
 
-# This project contains all the TimerJobs classes used to run Timer Jobs in SharePoint.Below Class Diagram show the classes used in ProjectName.TimerJobs project.  <br>
+# This project contains all the TimerJobs classes used to run Timer Jobs in !SharePoint.Below Class Diagram show the classes used in ProjectName.TimerJobs project.  <br>
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/TimerJob.Class.png
 
 
 # Below is the description of classes shown in above class diagram
 
- FirstTimerJob - This is first time job class inheriting from SPJobDefinition class. The Execute method will fire whenever you timer job service will run. Timer job will deployed on specific interval. You can refer UI project TimerJob Feature for How to deploy Timer Job in SharePoint
+ !FirstTimerJob - This is first time job class inheriting from SPJobDefinition class. The Execute method will fire whenever you timer job service will run. Timer job will deployed on specific interval. You can refer UI project TimerJob Feature for How to deploy Timer Job in !SharePoint
