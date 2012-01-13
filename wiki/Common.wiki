@@ -10,13 +10,13 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Common.Class
   1. !CommonFunctions - This class contains all the static methods which is generally used in every SharePoint project.
     Methods -
 
-    !GetColumnTypeByFieldGUID -This method will return column type based      on the GUID of that field
+    GetColumnTypeByFieldGUID -This method will return column type based      on the GUID of that field
 
     !RemoveSpecialNames - This method will remove all the special names which is not allowed in file names
 
-    !EscapeCAMLChars - This method will escape CAML character from the XML
+    EscapeCAMLChars - This method will escape CAML character from the XML
 
-    !RevertCAMLChars - This method will revert CAML character from the XML
+    RevertCAMLChars - This method will revert CAML character from the XML
 
     !IsExistsCustomAction - This method will check whether specific custom exists in the web or not.
 
