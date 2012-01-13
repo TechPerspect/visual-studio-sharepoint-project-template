@@ -7,7 +7,7 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Common.Class
 
 # Below is the description of classes shown in above class diagram
 
-  1. !CommonFunctions - This class contains all the static methods which is generally used in every SharePoint project.
+  1. !CommonFunctions - This class contains all the static methods which is generally used in every !SharePoint project.
     Methods -
 
     GetColumnTypeByFieldGUID -This method will return column type based      on the GUID of that field
