@@ -1,7 +1,6 @@
-
 [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Installation Installation Steps]
 
-[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/DeleteTemplate Deletion Steps]
+Refer [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/DeleteTemplate UnInstall Steps]
 
 
 == Template Usage ==
