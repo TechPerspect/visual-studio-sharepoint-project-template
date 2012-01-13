@@ -1,3 +1,9 @@
+
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Installation Installation Steps]
+
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/DeleteTemplate Deletion Steps]
+
+
 == Template Usage ==
 
   # Open VS 2010 -> File -> New -> Project -> Visual C#-> SharePoint -> 2010 -> Select Template <br/> 
