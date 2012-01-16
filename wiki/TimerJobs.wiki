@@ -2,7 +2,7 @@
 
 # This project contains all the Timer Jobs classes used to run Timer Jobs in !SharePoint.Below Class Diagram show the classes used in !ProjectName.TimerJobs project.  <br>
 
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/TimerJob.Class.png
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/Timer.Class2.png
 
 
 # Below is the description of classes shown in above class diagram
