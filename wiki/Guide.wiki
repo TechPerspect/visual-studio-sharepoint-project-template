@@ -16,6 +16,7 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Properties.p
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/Deploy.png
 
 
+5. To validate deployment [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/PostDeploymentSteps Verify Post Deployment steps]
 
 == Description of Projects ==
 [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/UI {ProjectName}.UI]<br>
