@@ -7,22 +7,23 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Operations.C
 
 # Below is the description of classes shown in above class diagram
 
- !InstallCustomAction - This class is used to install all custom actions in !SharePoint. It is inheriting from !BaseOperation class
+ 1. <b>!InstallCustomAction</b> - This class is used to install all custom actions in !SharePoint. It is inheriting from !BaseOperation class
   
   Method <br>
-  !RegisterCustomCoreInScriptLink - This method is used to register custom javascript file in Script Link<br>
+  a. <b>!RegisterCustomCoreInScriptLink</b> - This method is used to register custom javascript file in Script Link<br>
   
+</hr>
 
-  !ListOperations - This class is used to perform all list level operations in !SharePoint. It is inheriting from !BaseOperation class<br><br>
+ 2. <b>!ListOperations</b> - This class is used to perform all list level operations in !SharePoint. It is inheriting from !BaseOperation class<br><br>
   
   Method <br>
-  !AddItem - This method is used to create list item in list<br>
-  !CreateList - This method is used to create list in Site<br>
-  !CreateSiteColumn - This method is used to create site column in site<br>
-  !DeleteItemByID - This method is used to delete list item based on ID from the list<br>
-  !DeleteItemByTitle -  This method is used to delete list item based on Title from the list<br>
-  !DeleteList - This method is used to delete list from site<br>
-  !GetFileNameById - This method is used get the file name from the ID<br>
-  !GetListByListID - This method is used to get the list based on the List ID<br>
-  !GetListByName - This method is used to get the list based on the list name
+  a. <b>!AddItem</b> - This method is used to create list item in list<br>
+  b. <b>!CreateList</b> - This method is used to create list in Site<br>
+  c. <b>!CreateSiteColumn - This method is used to create site column in site<br>
+  d. <b>!DeleteItemByID</b> - This method is used to delete list item based on ID from the list<br>
+  e. <b>!DeleteItemByTitle</b> -  This method is used to delete list item based on Title from the list<br>
+  f. <b>!DeleteList</b> - This method is used to delete list from site<br>
+  g. <b>!GetFileNameById</b> - This method is used get the file name from the ID<br>
+  h. <b>!GetListByListID</b> - This method is used to get the list based on the List ID<br>
+  i. <b>!GetListByName</b> - This method is used to get the list based on the list name
   
