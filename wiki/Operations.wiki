@@ -20,10 +20,10 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Operations.C
   a. <b>!AddItem</b> - This method is used to create list item in list<br>
   b. <b>!CreateList</b> - This method is used to create list in Site<br>
   c. <b>!CreateSiteColumn - This method is used to create site column in site<br>
-  d. <b>!DeleteItemByID</b> - This method is used to delete list item based on ID from the list<br>
+  d. <b>DeleteItemByID</b> - This method is used to delete list item based on ID from the list<br>
   e. <b>!DeleteItemByTitle</b> -  This method is used to delete list item based on Title from the list<br>
   f. <b>!DeleteList</b> - This method is used to delete list from site<br>
   g. <b>!GetFileNameById</b> - This method is used get the file name from the ID<br>
-  h. <b>!GetListByListID</b> - This method is used to get the list based on the List ID<br>
+  h. <b>GetListByListID</b> - This method is used to get the list based on the List ID<br>
   i. <b>!GetListByName</b> - This method is used to get the list based on the list name
   
