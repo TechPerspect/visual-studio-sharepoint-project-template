@@ -1,7 +1,7 @@
 == !ProjectName.UI Detail ==
 
 # This project is main component of !SharePoint solution which will be used to deploy or create the !SharePoint Solution. As name implies this project contains all the !SharePoint deploy-able files like Web Part, User Control, JS files, CSS files.Below Class Diagram show the classes used in !ProjectName.UI project.  <br>
-    http://visual-studio-sharepoint-project-template.googlecode.com/svn/UI.Class.png
+    http://visual-studio-sharepoint-project-template.googlecode.com/svn/UI.Class2.png
 
 
 # Below is the description of classes shown in above class diagram
