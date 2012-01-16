@@ -7,4 +7,4 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Timer.Class2
 
 # Below is the description of classes shown in above class diagram
 
- !FirstTimerJob - This is first time job class inheriting from SPJobDefinition class. The Execute method will fire whenever you timer job service will run. Timer job will deployed on specific interval. You can refer UI project TimerJob Feature for How to deploy Timer Job in !SharePoint
+ !SampleTimerJob - This is first time job class inheriting from SPJobDefinition class. The Execute method will fire whenever you timer job service will run. Timer job will deployed on specific interval. You can refer UI project TimerJob Feature for How to deploy Timer Job in !SharePoint
