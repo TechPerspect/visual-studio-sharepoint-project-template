@@ -28,12 +28,12 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Operations.C
   i. <b>!GetListByName</b> - This method is used to get the list based on the list name<br>
   j. <b>DeleteItemPermanentlyByID</b> - This method is used to delete the item permanently from the system. User will not be able to restore the item from the recycle bin<br>
   h. <b>GetContentTypeFieldsByContentTypeID</b> - This method will return collection of fields of content type based on the content type id<br>
-  j. <b>GetListFieldsByListName</b> - This method will return the field collection for the specified list<br>
-  k. <b>GetListItem</b> - This method will return the list item<br>
+  j. <b>!GetListFieldsByListName</b> - This method will return the field collection for the specified list<br>
+  k. <b>!GetListItem</b> - This method will return the list item<br>
   l. <b>GetListItemByID</b> - This method will return the list item based on the list item id<br>
   m. <b>GetListURL</b> - This method will return the URL of the specified list<br>
   n. <b>GetSPFieldByName</b> - This method will return the sharepoint field based on the name of the field<br>
-  o. <b>IsListExisting</b> - This method will return true or false whether list is exists or not in the specified web<br>
-  p. <b>IsListItemExists</b> - This method will return true or false whether list item is exists or not in the specified list<br>
-  q. <b>IsPageExists</b> - This method will return true or false whether the page is exists or not in the specified url<br>
-  s. <b>PerformMinorCheckin</b> - This method will check-in the document or page in minor version<br>
+  o. <b>!IsListExisting</b> - This method will return true or false whether list is exists or not in the specified web<br>
+  p. <b>!IsListItemExists</b> - This method will return true or false whether list item is exists or not in the specified list<br>
+  q. <b>!IsPageExists</b> - This method will return true or false whether the page is exists or not in the specified url<br>
+  s. <b>!PerformMinorCheckin</b> - This method will check-in the document or page in minor version<br>
