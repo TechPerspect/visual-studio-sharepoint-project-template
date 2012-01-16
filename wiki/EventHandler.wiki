@@ -1,10 +1,10 @@
 = !ProjectName.UI Detail ==
 
-# This project contains all the EventHandler classes used to attach to List or WEB in !SharePoint.Below Class Diagram show the classes used in ProjectName.EventHandler project.  <br>
+# This project contains all the EventHandler classes used to attach to List or WEB in !SharePoint.Below Class Diagram show the classes used in !ProjectName.EventHandler project.  <br>
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/eventhandler.Class2.png
 
 
 # Below is the description of classes shown in above class diagram
 
- !SampleEventHandler - This is first event handler class inheriting from SPItemEventReceiver class. The above method will fire an event as per the list item action. You can add or use same class for adding event to the list
+ 1. <b>!SampleEventHandler</b> - This is first event handler class inheriting from SPItemEventReceiver class. The above method will fire an event as per the list item action. You can add or use same class for adding event to the list
