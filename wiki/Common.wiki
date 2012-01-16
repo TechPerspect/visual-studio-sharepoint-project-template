@@ -33,13 +33,17 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Common.Class
  5. <b>!ExtensionMethods</b> - This is static class and contains all the extended method which is used to bind with different objects
 
   Methods -
-    a. <b>!Serialise</b>  - This method is extension of Object class. This will serialize respective object in XML string
+   a. <b>Serialise</b>  - This method is extension of Object class. This will serialize respective object in XML string
 
     b. <b>!DeSerialise</b> - This method is extension of String class, this will return respective XML to the Object
 
     c. <b>!SaveCustomAttribute, !SetCustomAttribute and !GetCustomAttribue</b> - These methods are extensions of SPField class. These methods are used to save and get the SPField attributes via reflection
 
    d. <b>!GetResourceString</b> - This method is extension of String class. This method will get the resource string based on the respective key for that string
+
+   e. <b>!GetFieldNamebyEscapeCharacter</b> - This method is extension of String class. This method will return the sharepoint field name by replacing escape character for SharePoint
+
+  f. <b>!HasSpecialCharacterForFileandFolder and HasSpecialCharacterForSiteandGroups</b> - This method is extension of String class. This method will return the boolean value based on the validating the special character in current string
 
    
    
