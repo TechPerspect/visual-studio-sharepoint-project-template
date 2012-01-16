@@ -41,9 +41,9 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Common.Class
 
    d. <b>!GetResourceString</b> - This method is extension of String class. This method will get the resource string based on the respective key for that string
 
-   e. <b>!GetFieldNamebyEscapeCharacter</b> - This method is extension of String class. This method will return the sharepoint field name by replacing escape character for SharePoint
+   e. <b>!GetFieldNamebyEscapeCharacter</b> - This method is extension of String class. This method will return the sharepoint field name by replacing escape character for !SharePoint
 
-  f. <b>!HasSpecialCharacterForFileandFolder and HasSpecialCharacterForSiteandGroups</b> - This method is extension of String class. This method will return the boolean value based on the validating the special character in current string
+  f. <b>!HasSpecialCharacterForFileandFolder and HasSpecialCharacterForSiteand!Groups</b> - This method is extension of String class. This method will return the boolean value based on the validating the special character in current string
 
    
    
