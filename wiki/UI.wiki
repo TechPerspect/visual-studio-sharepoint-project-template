@@ -6,7 +6,7 @@
 
 # Below is the description of classes shown in above class diagram
 
-  1. =!BaseWebPart= - This is the base class for all the webparts (both webpart and visual webpart). Currently no common functionality is implemented in this class. But at any point of time developer needs to expose one common public property of the web parts then developer needs to implement that public property in this class.
+  1. === !BaseWebPart === - This is the base class for all the webparts (both webpart and visual webpart). Currently no common functionality is implemented in this class. But at any point of time developer needs to expose one common public property of the web parts then developer needs to implement that public property in this class.
 
   2. !HelloVisualWebPart - This is visual web part class inheriting from !BaseWebPart
 
