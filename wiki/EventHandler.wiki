@@ -1,4 +1,4 @@
-= !ProjectName.EventHandlers Detail ==
+= !ProjectName.!EventHandlers Detail ==
 
 # This project contains all the EventHandler classes used to attach to List or WEB in !SharePoint.Below Class Diagram show the classes used in !ProjectName.EventHandler project.  <br>
 
