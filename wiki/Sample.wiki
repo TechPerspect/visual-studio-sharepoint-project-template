@@ -7,9 +7,15 @@
 
 1. Go to Site -> Site Actions -> Site Settings -> Web Parts (Gallary Section)
 
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/SSettings.png
+
 2. Click Document in Ribbon and Click -> New Document -> New
 
-3. <b>Overwrite if file already exists?<b> check box -> Select your visual webpart and click Populate Gallary
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/WPNew.png
+
+3. <b>Overwrite if file already exists?</b> check box -> Select your visual webpart and click Populate Gallary
+
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/WPAdd.png
 
 4. Go To Page-> Edit Page -> Insert !WebPart -> Add your Visual !WebPart
 
