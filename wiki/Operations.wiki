@@ -1,18 +1,18 @@
 == !ProjectName.Operations Detail ===
 
-# This project contains all the operational classes used to perform an operation in !SharePoint like adding an item, creating a list, installing a custom action.Below Class Diagram show the classes used in !ProjectName.Operations project.  <br>
+ This project contains all the operational classes used to perform an operation in !SharePoint like adding an item, creating a list, installing a custom action.Below Class Diagram show the classes used in !ProjectName.Operations project.  <br>
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/Operations.Class.png
 
 
-# Below is the description of classes shown in above class diagram
+ Below is the description of classes shown in above class diagram
 
  1. <b>!InstallCustomAction</b> - This class is used to install all custom actions in !SharePoint. It is inheriting from !BaseOperation class
   
   Method <br>
   a. <b>!RegisterCustomCoreInScriptLink</b> - This method is used to register custom javascript file in Script Link<br>
   
-</hr>
+<hr/>
 
  2. <b>!ListOperations</b> - This class is used to perform all list level operations in !SharePoint. It is inheriting from !BaseOperation class<br><br>
   
