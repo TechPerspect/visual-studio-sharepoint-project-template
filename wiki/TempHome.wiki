@@ -25,9 +25,4 @@ Using !SharePoint Project Template benefits all of the following:
 
 == Getting Started ==
  # In many client-side development scenarios, you will want to use a Microsoft® !SharePoint® project created in the Microsoft Visual Studio® 2010 development system to deploy a Microsoft !SharePoint® application to a !SharePoint environment. This topic shows you how to use a !SharePoint Project Template Visual Studio 2010. It also demonstrates how to deploy the solution and verification of post deployment steps
-[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Guide How to Use SharePoint Project Template in Visual Studio 2010?]
-
-<br>
-<br>
-<b>Below is the link of the sample page.</b>
-[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Sample SAMPLE]
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Sample How to Use SharePoint Project Template in Visual Studio 2010?]
