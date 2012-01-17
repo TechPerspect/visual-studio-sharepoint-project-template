@@ -1,50 +1,35 @@
 == !ProjectName.UI Detail ==
 
-# This project contains all the common methods or functionality which will be used in all projects like Constants, Common Methods, Enumarators etc.Below Class Diagram show the classes used in !ProjectName.Common project.  <br>
-
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/Common.Class2.png
+This project contains all the common methods or functionality which will be used in all projects like Constants, Common Methods, Enumarators etc.Below Class Diagram show the classes used in !ProjectName.Common project.  <br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/Common.Class2.png
 
 
-# Below is the description of classes shown in above class diagram
+Below is the description of classes shown in above class diagram
 
-   1. <b>!CommonFunctions</b> - This class contains all the static methods which is generally used in every !SharePoint project.
+  # *!CommonFunctions* - This class contains all the static methods which is generally used in every !SharePoint project.<br>
+=== Methods: ===
 
-    Methods -
-
-   a. <b>GetColumnTypeByFieldGUID</b> -This method will return column type based on the GUID of that field
-
-   b. <b>!RemoveSpecialNames</b> - This method will remove all the special names which is not allowed in file names
-
-   c. <b>EscapeCAMLChars</b> - This method will escape CAML character from the XML
-
-   d. <b>RevertCAMLChars</b> - This method will revert CAML character from the XML
-
-   e. <b>!IsExistsCustomAction</b> - This method will check whether specific custom exists in the web or not.
-
-   f. <b>!GetErrorCodeKey</b> - This method will return error key which is used to display error message on UI
+  # *GetColumnTypeByFieldGUID* -This method will return column type based on the GUID of that field
+  # *!RemoveSpecialNames* - This method will remove all the special names which is not allowed in file names
+  # *EscapeCAMLChars* - This method will escape CAML character from the XML
+  # *RevertCAMLChars* - This method will revert CAML character from the XML
+  # *!IsExistsCustomAction* - This method will check whether specific custom exists in the web or not.
+  # *!GetErrorCodeKey* - This method will return error key which is used to display error message on UI
 <hr/>
-  2. <b>Enums</b> - This class all the enumerators used in the solution
+  # *Enums* - This class all the enumerators used in the solution
 <hr/>
-  3. <b>Constants</b> - This class contains all the Constants used in the solution
+  # *Constants* - This class contains all the Constants used in the solution
 <hr/>
-  4. <b>!ElevatedCodeHelper</b> - This class is used to overwrite the SPSecurity.!RunWithElevatedPrivileges. You need to call !ExecuteElevatedCode method to override SPSecurity. You can take reference of this in Visual !WebPart code in UI solution
-  <br/>
-   used <b>!PrivilegedCodeDelegate</b> delegate to use above function anonymously. You can directly pass the method by using anonymous method in .Net. You will find the sample of this in sample visual !webpart in UI !project
+  # *!ElevatedCodeHelper* - This class is used to overwrite the SPSecurity.!RunWithElevatedPrivileges. You need to call !ExecuteElevatedCode method to override SPSecurity. You can take reference of this in Visual !WebPart code in UI solution<br/>used *!PrivilegedCodeDelegate* delegate to use above function anonymously. You can directly pass the method by using anonymous method in .Net. You will find the sample of this in sample visual !webpart in [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/UI UI]
 <hr/>
- 5. <b>!ExtensionMethods</b> - This is static class and contains all the extended method which is used to bind with different objects
+  # *!ExtensionMethods* - This is static class and contains all the extended method which is used to bind with different objects<br>
+===  Methods: ===
 
-  Methods -
-   a. <b>Serialise</b>  - This method is extension of Object class. This will serialize respective object in XML string
-
-    b. <b>!DeSerialise</b> - This method is extension of String class, this will return respective XML to the Object
-
-    c. <b>!SaveCustomAttribute, !SetCustomAttribute and !GetCustomAttribue</b> - These methods are extensions of SPField class. These methods are used to save and get the SPField attributes via reflection
-
-   d. <b>!GetResourceString</b> - This method is extension of String class. This method will get the resource string based on the respective key for that string
-
-   e. <b>!GetFieldNamebyEscapeCharacter</b> - This method is extension of String class. This method will return the sharepoint field name by replacing escape character for !SharePoint
-
-  f. <b>!HasSpecialCharacterForFileandFolder and !HasSpecialCharacterForSiteandGroups</b> - This method is extension of String class. This method will return the boolean value based on the validating the special character in current string
+  # *Serialise*  - This method is extension of Object class. This will serialize respective object in XML string
+  # *!DeSerialise* - This method is extension of String class, this will return respective XML to the Object
+  # *!SaveCustomAttribute, !SetCustomAttribute and !GetCustomAttribue* - These methods are extensions of SPField class. These methods are used to save and get the SPField attributes via reflection
+  # *!GetResourceString* - This method is extension of String class. This method will get the resource string based on the respective key for that string
+  # *!GetFieldNamebyEscapeCharacter* - This method is extension of String class. This method will return the sharepoint field name by replacing escape character for !SharePoint
+  # *!HasSpecialCharacterForFileandFolder and !HasSpecialCharacterForSiteandGroups* - This method is extension of String class. This method will return the boolean value based on the validating the special character in current string
 
    
    
