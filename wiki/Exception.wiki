@@ -4,5 +4,5 @@
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/Exception.Class.png
 
-cutsom exception will be handled in constructor of this class. But some of the method like SetMessageonUI,SetErrorMessageonUI please refer error capturing control in [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/UI {Project.UI}]
+Cutsom exception will be handled in constructor of this class. But some of the method like SetMessageonUI,SetErrorMessageonUI please refer error capturing control in [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Sample Sample Project]
  
