@@ -1,45 +1,29 @@
 =Sample Guide=
 
   # Open Visual Studio 2010 -> File -> New -> Project<br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S1.png<br>  
-  # Selct Visual C#-> !SharePoint -> 2010 -> Select SharePoint Project Template -> Provide Name and select Location and click OK. It will create project as per you input as mentioned in below screen shot <br/> 
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/S2.png<br> 
+  # Selct Visual C#-> !SharePoint -> 2010 -> Select SharePoint Project Template -> Provide Name and select Location and click OK. It will create project as per you input as mentioned in below screen shot <br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S2.png<br> 
   # After successful creation your solution explorer will look like below screen shot <br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S3.png<br>  
-  # Do your changes as I have done in sample project like below screen shots<br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S4.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S5.png<br>
-  # Set your Site URL in {ProjectName!}.UI properties as in below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/Properties.png<br>
+  # Do your changes as I have done in sample project like below screen shots<br/>Below method in screen shot is ExecuteMethod define in SampleProjectTimerJob.cs in [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/TimerJobs TimerJobs] project<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S4.png<br><br/>Below class SampleEventHandler defined in [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/TimerJobs EventHandler] project<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S5.png<br>
+  # Set your Site URL in {!ProjectName}.UI properties as in below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/Properties.png<br>
   # Right click on solution name and click on Deploy from the context menu to deploy the solution<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/Deploy.png<br>
 
+= [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/PostDeploymentSteps Verify Deployment in SharePoint Environment] =
 
-After deployment of !SharePoint solution. !SharePoint deploy all the file in !SharePoint. All the physical files used in SharePoint solution will be deployed in *C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14*.
-
-  # !SharePoint maintain all WSP solution in Solution store in !SharePoint<br>Go to !SharePoint Central Administration -> System Settings -> Manager Farm Solution and validate your solution status<br>
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/S7.png<br>
-  # Validate you timer job in !SharePoint Central Admin
- Go to !SharePoint Central Administration -> Monitoring -> Review Job Definitions and validate your timer job<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S8.png<br>
-  # Validate your sample features in your !SharePoint Site
- Go to your site -> Site Actions -> Site Settings -> Site Collection features<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S18.png<br>
-  # Add sample webparts in your page to view the sample on the screen
-Go to Site -> Site Actions -> Site Settings -> Web Parts (Gallary Section)<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/SSettings.png<br>
-  # Click Document in Ribbon and Click -> New Document -> New<br>
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/WPNew.png<br>
-  # *Overwrite if file already exists* check box -> Select your visual webpart and click Populate Gallary<br>
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/S9.png<br>
-  # Go To Page-> Edit Page -> Insert !WebPart -> Add your Visual !WebPart
+= Add WebPart in !SharePoint Page =
+  # Add sample webparts in your page to view the sample on the screen<br>Go to Site -> Site Actions -> Site Settings -> Web Parts (Gallary Section)<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/SSettings.png<br>
+  # Click Document in Ribbon and Click -> New Document -> New<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/WPNew.png<br>  # *Overwrite if file already exists* check box -> Select your visual webpart and click Populate Gallary<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S9.png<br>
+  # Go To Page-> Edit Page -> Insert !WebPart -> Add your Visual !WebPart<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S21.png
 
 
 = Example of Sample !WebPart and Event Handler =
-  # On Click of "Create List and Attach event handler" button in Sample !WebPart will create on Test List and attach event handler on that list, The main purpose of the event is it will validate special character in the title of the item. If the title contains the special character then it will display the message as below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S19.png<br>
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/S14.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S15.png<br>
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/S16.png<br>
+  # On Click of "Create List and Attach event handler" button in Sample !WebPart will create on Test List and attach event handler on that list, The main purpose of the event is it will validate special character in the title of the item. If the title contains the special character then it will display the message as below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S19.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S14.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S15.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S16.png<br>
 
 
 = Example of Timer Job =
-  # Timer job will change all the list items title whose current title is Test. The intalled duration of timer job is 15 minute.<br>Below screen shot is before execution of Timer Job
-<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S16.png<br>
-Below screen shot is after execution of Timer Job<br>
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/S17.png<br>
+  # Timer job will change all the list items title whose current title is Test. The intalled duration of timer job is 15 minute.<br>Below screen shot is before execution of Timer Job<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S16.png<br>Below screen shot is after execution of Timer Job<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S17.png<br>
 
 
 
 =Example of Sample Visual !WebPart =
-[http://visual-studio-sharepoint-project-template.googlecode.com/svn/S10.png]<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/S11.png]<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/S12.png]<br>
+On click of Show Success Message Button<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/S10.png]<br><br>On click of Show Error Message Button<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/S11.png]<br><br>On click of Show Handled Exception Message<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/S12.png]<br><br>On Click of Show List Data with Elevated Code<br>
 [http://visual-studio-sharepoint-project-template.googlecode.com/svn/S13.png]
