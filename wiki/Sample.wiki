@@ -1,22 +1,45 @@
- 
-= Complete Sample !Guide=
 
- Below are the steps to validate the deployment of SharePoint solution and configuration steps to validate sample in SharePoint
+=Sample Guide=
 
-=Validate Deployment=
-After deployment of SharePoint solution. SharePoint deploy all the file in SharePoint. All the physical files used in SharePoint solution will be deployed in <b>C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14</b>.
+1.) Open VS 2010 -> File -> New -> Project -> Visual C#-> !SharePoint -> 2010 -> Select Template <br/> 
+	http://visual-studio-sharepoint-project-template.googlecode.com/svn/S1.png 
+ <br>
 
-1. SharePoint maintain all WSP solution in Solution store in SharePoint
-1. Go to SharePoint Central Administration -> System Settings -> Manager Farm Solution and validate your solution status
+ 2.) Provide Name and select Location and click OK. It will create project as per you input as mentioned in below screen shot <br/> 
+    http://visual-studio-sharepoint-project-template.googlecode.com/svn/S2.png
+ <br>
+
+ 2.) After successful creation your solution explorer will look like below screen shot
+    http://visual-studio-sharepoint-project-template.googlecode.com/svn/S3.png
+
+ 3.) Do your changes as I have done in sample project like below screen shots
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/S4.png
+
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/S5.png
+
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/S6.png
+
+ 3.) Set your Site URL in {ProjectName!}.UI properties as in below screen shots
+
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/Properties.png
+
+
+ 4.) Right click on solution name and click on Deploy from the context menu to deploy the solution
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/Deploy.png
+
+After deployment of !SharePoint solution. !SharePoint deploy all the file in !SharePoint. All the physical files used in SharePoint solution will be deployed in <b>C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14</b>.
+
+1. !SharePoint maintain all WSP solution in Solution store in !SharePoint
+1. Go to !SharePoint Central Administration -> System Settings -> Manager Farm Solution and validate your solution status
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/S7.png
 
-2. Validate you timer job in SharePoint Central Admin
- Go to SharePoint Central Administration -> Monitoring -> Review Job Definitions and validate your timer job
+2. Validate you timer job in !SharePoint Central Admin
+ Go to !SharePoint Central Administration -> Monitoring -> Review Job Definitions and validate your timer job
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/S8.png
 
-3. Validate your sample features in your SharePoint Site
+3. Validate your sample features in your !SharePoint Site
  Go to your site -> Site Actions -> Site Settings -> Site Collection features 
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/S18.png
@@ -26,18 +49,18 @@ Go to Site -> Site Actions -> Site Settings -> Web Parts (Gallary Section)
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/SSettings.png
 
-2. Click Document in Ribbon and Click -> New Document -> New
+4. Click Document in Ribbon and Click -> New Document -> New
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/WPNew.png
 
-3. <b>Overwrite if file already exists?</b> check box -> Select your visual webpart and click Populate Gallary
+5. <b>Overwrite if file already exists</b> check box -> Select your visual webpart and click Populate Gallary
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/S9.png
 
-4. Go To Page-> Edit Page -> Insert !WebPart -> Add your Visual !WebPart
+6. Go To Page-> Edit Page -> Insert !WebPart -> Add your Visual !WebPart
 
 = Example of Sample !WebPart and Event Handler =
-5. On Click of "Create List and Attach event handler" button in Sample WebPart will create on Test List and attach event handler on that list, The main purpose of the event is it will validate special character in the title of the item. If the title contains the special character then it will display the message as below screen shots
+7. On Click of "Create List and Attach event handler" button in Sample !WebPart will create on Test List and attach event handler on that list, The main purpose of the event is it will validate special character in the title of the item. If the title contains the special character then it will display the message as below screen shots
 
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/S19.png
 
