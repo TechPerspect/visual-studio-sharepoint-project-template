@@ -1,8 +1,8 @@
 == Post Deployment Steps ==
   # After Successful deployment of your solution. Below are the screen shots to validate the deployed solution in !SharePoint environment.<br>All the physical files used in !SharePoint solution will be deployed in C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14<br><br>Deployed File type with location<br><BR>
 	* *Feature Files* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\FEATURES<br><br>
-	* *User Controls* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\CONTROLTEMPLATES\{ProjectName}<br><br>
-	* *JS and CSS Files* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\LAYOUTS\{ProjectName}<br><br>
+	* *User Controls* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\CONTROLTEMPLATES\{!ProjectName}<br><br>
+	* *JS and CSS Files* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\LAYOUTS\{!ProjectName}<br><br>
 	* *CSharp File* - All custom c# class deployed in GAC as mentioned in below screen shots<br><br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S20.png<br><br>
   # !SharePoint maintain all WSP solution in Solution store in !SharePoint<br>Go to !SharePoint Central Administration -> System Settings -> Manager Farm Solution and validate your solution status<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S7.png<br>
   # Validate you timer job in !SharePoint Central Admin<br>Go to !SharePoint Central Administration -> Monitoring -> Review Job Definitions and validate your timer job<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S8.png<br>
