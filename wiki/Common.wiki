@@ -28,7 +28,8 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/Common.Class
   3. <b>Constants</b> - This class contains all the Constants used in the solution
 <hr/>
   4. <b>!ElevatedCodeHelper</b> - This class is used to overwrite the SPSecurity.!RunWithElevatedPrivileges. You need to call !ExecuteElevatedCode method to override SPSecurity. You can take reference of this in Visual !WebPart code in UI solution
-  
+  <br/>
+   used <b>PrivilegedCodeDelegate</b> delegate to use above function anonymously. You can directly pass the method by using anonymous method in .Net. You will find the sample of this in sample visual !webpart in UI !project
 <hr/>
  5. <b>!ExtensionMethods</b> - This is static class and contains all the extended method which is used to bind with different objects
 
