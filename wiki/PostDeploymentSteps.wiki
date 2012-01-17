@@ -1,17 +1,16 @@
 == Post Deployment Steps ==
 
-# After deployment of your solution. Below are the screen shots to validate the file locations and features.
+  # After Successful deployment of your solution. Below are the screen shots to validate the deployed solution in SharePoint environment.
 
-1. Go to !SharePoint Central Administration -> System Settings -> Manager Farm Solution and validate your solution status
+All the physical files used in SharePoint solution will be deployed in *C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14*.
 
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/Deployment1.png
-
-2. Go to !SharePoint Central Administration -> Monitoring -> Review Job Definitions and validate your timer job
-
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/Deployment3.png
-
-3. Go to your site -> Site Actions -> Site Settings -> Site Collection features and validate your features
-
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/Deployment2.png
-
-and all the file which you have added in your solution can be verified 14 hive (C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE) folder for respective location in which you have added your file
+Deployed File type with location
+*Feature Files* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\FEATURES
+*User Controls* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\CONTROLTEMPLATES\{ProjectName}
+*JS and CSS Files* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\LAYOUTS\{ProjectName}
+*CSharp File* - All custom c# class deployed in GAC as mentioned in below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S20.png<br>
+  # !SharePoint maintain all WSP solution in Solution store in !SharePoint<br>Go to !SharePoint Central Administration -> System Settings -> Manager Farm Solution and validate your solution status<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S7.png<br>
+  # Validate you timer job in !SharePoint Central Admin
+Go to !SharePoint Central Administration -> Monitoring -> Review Job Definitions and validate your timer job<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S8.png<br>
+  # Validate your sample features in your !SharePoint Site
+ Go to your site -> Site Actions -> Site Settings -> Site Collection features<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S18.png<br>
