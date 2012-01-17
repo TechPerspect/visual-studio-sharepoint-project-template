@@ -1,26 +1,15 @@
 == !ProjectName.UI Detail ==
 
-# This project is main component of !SharePoint solution which will be used to deploy or create the !SharePoint Solution. As name implies this project contains all the !SharePoint deploy-able files like Web Part, User Control, JS files, CSS files.Below Class Diagram show the classes used in !ProjectName.UI project.  <br>
-    http://visual-studio-sharepoint-project-template.googlecode.com/svn/UI.Class2.png
+This project is main component of !SharePoint solution which will be used to deploy or create the !SharePoint Solution. As name implies this project contains all the !SharePoint deploy-able files like Web Part, User Control, JS files, CSS files.Below Class Diagram show the classes used in !ProjectName.UI project.  <br>    http://visual-studio-sharepoint-project-template.googlecode.com/svn/UI.Class2.png  <br> Below is the description of classes shown in above class diagram
 
 
-# Below is the description of classes shown in above class diagram
+  # *!BaseWebPart* - This is the base class for all the webparts (both webpart and visual webpart). Currently no common functionality is implemented in this class. But at any point of time developer needs to expose one common public property of the web parts then developer needs to implement that public property in this class.
+  # *!SampleVisualWebPart* - This is visual web part class inheriting from !BaseWebPart
+  # *!SampleWebPart* - This is standard web part class inheriting from !BaseWebPart
+  # *!ErrorCaptureControl* - This is custom webcontrol class inheriting from System.Web.UI.!WebControls.!WebControl class. This class is used to display error or succss message on UI depends on the method call<br><br>  === Methods: ===
 
-   1. <b>!BaseWebPart</b> - This is the base class for all the webparts (both webpart and visual webpart). Currently no common functionality is implemented in this class. But at any point of time developer needs to expose one common public property of the web parts then developer needs to implement that public property in this class.
 
-  2. <b>!SampleVisualWebPart</b> - This is visual web part class inheriting from !BaseWebPart
-
-  3. <b>!SampleWebPart</b> - This is standard web part class inheriting from !BaseWebPart
-
-  4. <b>!ErrorCaptureControl</b> - This is custom webcontrol class inheriting from System.Web.UI.!WebControls.!WebControl class. This class is used to display error or succss message on UI depends on the method call
-  
-   Methods:
-   1. <b>ClearMessageFromUI</b> - This method will clear message from UI<br/>
-   2. <b>SetErrorMessageforUI</b>  - This method will set the Error message on    UI. It will display message as per below screen shot <br>
-   
-   http://visual-studio-sharepoint-project-template.googlecode.com/svn/ErrorMessage.png
-
-   3. <b>SetSuccessMessageforUI</b> - This method will set the Success message on    UI. It will display message as per below screen shot <br>
-    
-    http://visual-studio-sharepoint-project-template.googlecode.com/svn/SuccessMessage.png
+  # *ClearMessageFromUI* - This method will clear message from UI<br/>
+  # *SetErrorMessageforUI*  - This method will set the Error message on    UI. It will display message as per below screen shot <br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/ErrorMessage.png
+  # *SetSuccessMessageforUI* - This method will set the Success message on    UI. It will display message as per below screen shot <br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/SuccessMessage.png
    
