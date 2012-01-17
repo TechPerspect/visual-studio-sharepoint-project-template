@@ -17,8 +17,7 @@ http://visual-studio-sharepoint-project-template.googlecode.com/svn/S4.png
 <br>
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/S5.png
 <br>
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/S6.png
-<br>
+
  3.) Set your Site URL in {ProjectName!}.UI properties as in below screen shots
 <br>
 http://visual-studio-sharepoint-project-template.googlecode.com/svn/Properties.png
