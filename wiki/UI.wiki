@@ -6,7 +6,8 @@ This project is main component of !SharePoint solution which will be used to dep
   # *!BaseWebPart* - This is the base class for all the webparts (both webpart and visual webpart). Currently no common functionality is implemented in this class. But at any point of time developer needs to expose one common public property of the web parts then developer needs to implement that public property in this class.
   # *!SampleVisualWebPart* - This is visual web part class inheriting from !BaseWebPart
   # *!SampleWebPart* - This is standard web part class inheriting from !BaseWebPart
-  # *!ErrorCaptureControl* - This is custom webcontrol class inheriting from System.Web.UI.!WebControls.!WebControl class. This class is used to display error or succss message on UI depends on the method call<br><br>  === Methods: ===
+  # *!ErrorCaptureControl* - This is custom webcontrol class inheriting from System.Web.UI.!WebControls.!WebControl class. This class is used to display error or succss message on UI depends on the method call<br><br>  
+=== Methods: ===
 
 
   # *ClearMessageFromUI* - This method will clear message from UI<br/>
