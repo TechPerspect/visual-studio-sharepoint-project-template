@@ -1,0 +1,33 @@
+= What is !SharePoint Project Template? =
+!SharePoint Project Template is a predefined solution template with general classes and API's which is used in !SharePoint projects which can save developer's effort to create solutions, writing base functionality and common methods.
+
+
+== Who benefits from using !SharePoint Project Template? ==
+Using !SharePoint Project Template benefits all of the following:
+
+*!SharePoint Application Developers* – Application developers can create predefined !SharePoint solution in seconds. They will get already implemented exception class, logging, error capturing control, common method etc.
+
+
+== What features does !SharePoint Project Template?  ==
+!SharePoint Project Template provides following functional features:
+ # Separation of Projects in term of [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/UI UI], [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Common Common], [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/TimerJobs TimerJobs], [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/EventHandler EventHandlers], [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Operations Operations], [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Exception Exceptions]  
+ # Predefined Timer Job code 
+ # Predefined Eventhandler code 
+ # Predefined Exception class code 
+ # Predefined !SharePoint Operation code 
+ # Predefined Error capturing code 
+ # Predefined Exception class code 
+
+== Steup Guide ==
+ # Below link will guide you to step by step [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Installation Installation of Template in Visual Studio 2010] 
+ # [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/DeleteTemplate Un-Install] your template if you want to remove the template from Visual Studio 2010
+ 
+
+== Getting Started ==
+ # In many client-side development scenarios, you will want to use a Microsoft® !SharePoint® project created in the Microsoft Visual Studio® 2010 development system to deploy a Microsoft !SharePoint® application to a !SharePoint environment. This topic shows you how to use a !SharePoint Project Template Visual Studio 2010. It also demonstrates how to deploy the solution and verification of post deployment steps
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Guide How to Use SharePoint Project Template in Visual Studio 2010?]
+
+<br>
+<br>
+<b>Below is the link of the sample page.</b>
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/Sample SAMPLE]
