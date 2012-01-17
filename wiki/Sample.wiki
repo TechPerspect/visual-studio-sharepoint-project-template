@@ -1,9 +1,8 @@
 =Sample Guide=
 
-  # Open VS 2010 -> File -> New -> Project -> Visual C#-> !SharePoint -> 2010 -> Select Template <br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S1.png<br>  
-  # Provide Name and select Location and click OK. It will create project as per you input as mentioned in below screen shot <br/> 
-http://visual-studio-sharepoint-project-template.googlecode.com/svn/S2.png
- <br>  
+  # Open Visual Studio 2010 -> File -> New -> Project<br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S1.png<br>  
+  # Selct Visual C#-> !SharePoint -> 2010 -> Select SharePoint Project Template -> Provide Name and select Location and click OK. It will create project as per you input as mentioned in below screen shot <br/> 
+http://visual-studio-sharepoint-project-template.googlecode.com/svn/S2.png<br> 
   # After successful creation your solution explorer will look like below screen shot <br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S3.png<br>  
   # Do your changes as I have done in sample project like below screen shots<br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S4.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S5.png<br>
   # Set your Site URL in {ProjectName!}.UI properties as in below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/Properties.png<br>
