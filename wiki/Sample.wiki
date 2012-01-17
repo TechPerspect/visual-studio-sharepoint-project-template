@@ -1,15 +1,15 @@
 =Sample Guide=
 
   # Open Visual Studio 2010 -> File -> New -> Project<br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S1.png<br>  
-  # Selct Visual C#-> !SharePoint -> 2010 -> Select SharePoint Project Template -> Provide Name and select Location and click OK. It will create project as per you input as mentioned in below screen shot <br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S2.png<br> 
+  # Selct Visual C#-> !SharePoint -> 2010 -> Select !SharePoint Project Template -> Provide Name and select Location and click OK. It will create project as per you input as mentioned in below screen shot <br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S2.png<br> 
   # After successful creation your solution explorer will look like below screen shot <br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S3.png<br>  
-  # Do your changes as I have done in sample project like below screen shots<br/>Below method in screen shot is ExecuteMethod define in SampleProjectTimerJob.cs in [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/TimerJobs TimerJobs] project<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S4.png<br><br/>Below class SampleEventHandler defined in [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/TimerJobs EventHandler] project<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S5.png<br>
+  # Do your changes as I have done in sample project like below screen shots<br/>Below method in screen shot is !ExecuteMethod define in !SampleProjectTimerJob.cs in [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/TimerJobs TimerJobs] project<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S4.png<br><br/>Below class !SampleEventHandler defined in [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/TimerJobs EventHandler] project<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S5.png<br>
   # Set your Site URL in {!ProjectName}.UI properties as in below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/Properties.png<br>
   # Right click on solution name and click on Deploy from the context menu to deploy the solution<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/Deploy.png<br>
 
 = [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/PostDeploymentSteps Verify Deployment in SharePoint Environment] =
 
-= Add WebPart in !SharePoint Page =
+= Add !WebPart in !SharePoint Page =
   # Add sample webparts in your page to view the sample on the screen<br>Go to Site -> Site Actions -> Site Settings -> Web Parts (Gallary Section)<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/SSettings.png<br>
   # Click Document in Ribbon and Click -> New Document -> New<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/WPNew.png<br>  # *Overwrite if file already exists* check box -> Select your visual webpart and click Populate Gallary<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S9.png<br>
   # Go To Page-> Edit Page -> Insert !WebPart -> Add your Visual !WebPart<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/S21.png
