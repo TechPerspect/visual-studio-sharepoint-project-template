@@ -6,19 +6,9 @@
   # Set your Site URL in {!ProjectName}.UI properties as in below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S23.png<br>
   # Right click on solution name and click on Deploy from the context menu to deploy the solution<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S24.png<br>
   # After deployment it will show Deploy succeeded message in Visual Studio Status Bar as mentioned in below screen shot<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S22.png
-
-= [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/PostDeploymentSteps Verify Deployment in SharePoint Environment] =
-
-= Add !WebPart in !SharePoint Page =
-  # Add sample webparts in your page to view the sample on the screen<br>Go to Site -> Site Actions -> Site Settings -> Web Parts (Gallary Section)<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/SSettings.png<br>
-  # Click Document in Ribbon and Click -> New Document -> New<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/WPNew.png<br>  # *Overwrite if file already exists* check box -> Select your visual webpart and click Populate Gallary<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S9.png<br>
-  # Go To Page-> Edit Page -> Insert !WebPart -> Add your Visual !WebPart<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S21.png
-
-
-= Example of Sample !WebPart and Event Handler =
-  # On Click of "Create List and Attach event handler" button in Sample !WebPart will create on Test List and attach event handler on that list, The main purpose of the event is it will validate special character in the title of the item. If the title contains the special character then it will display the message as below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S19.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S14.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S15.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S16.png<br>
-
-
-=Example of Sample Visual !WebPart =
-On click of Show Success Message Button<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S10.png]<br><br>On click of Show Error Message Button<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S11.png]<br><br>On click of Show Handled Exception Message<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S12.png]<br><br>On Click of Show List Data with Elevated Code<br>
-[http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S13.png]
+  # After Successful deployment of your solution. Below are the screen shots to validate the deployed solution in !SharePoint environment.<br>All the physical files used in !SharePoint solution will be deployed in C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14<br><br>Deployed File type with location<br><BR>
+	* *Feature Files* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\FEATURES<br><br>
+	* *User Controls* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\CONTROLTEMPLATES\{!ProjectName}<br><br>
+	* *JS and CSS Files* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\LAYOUTS\{!ProjectName}<br><br>
+	* *CSharp File* - All custom c# class deployed in GAC as mentioned in below screen shots<br><br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S20.png<br><br>
+  # !SharePoint maintain all WSP solution in Solution store in !SharePoint<br>Go to !SharePoint Central Administration -> System Settings -> Manager Farm Solution and validate your solution status<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S7.png<br>
