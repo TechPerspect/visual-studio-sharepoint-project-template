@@ -1,6 +1,6 @@
 == !ProjectName.UI Detail ==
 
-This project contains all the common methods or functionality which will be used in all projects like Constants, Common Methods, Enumarators etc.Below Class Diagram show the classes used in !ProjectName.Common project.  <br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/Common.Class2.png
+This project contains all the common methods or functionality which will be used in all projects like Constants, Common Methods, Enumarators etc.Below Class Diagram show the classes used in !ProjectName.Common project.  <br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/Common.Class2.png
 
 
 Below is the description of classes shown in above class diagram

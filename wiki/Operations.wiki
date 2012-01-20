@@ -1,6 +1,6 @@
 == !ProjectName.Operations Detail ===
 
- This project contains all the operational classes used to perform an operation in !SharePoint like adding an item, creating a list, installing a custom action.Below Class Diagram show the classes used in !ProjectName.Operations project.  <br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/Operations.Class.png
+ This project contains all the operational classes used to perform an operation in !SharePoint like adding an item, creating a list, installing a custom action.Below Class Diagram show the classes used in !ProjectName.Operations project.  <br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/Operations.Class.png
 <br>
  Below is the description of classes shown in above class diagram
 
