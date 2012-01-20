@@ -2,7 +2,8 @@
 
   # Open Visual Studio 2010 -> File -> New -> Project<br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S1.png<br>  
   # Selct Visual C#-> !SharePoint -> 2010 -> Select !SharePoint Project Template -> Provide Name and select Location and click OK. It will create project as per you input as mentioned in below screen shot <br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S2.png<br> 
-  # After successful creation your solution explorer will look like below screen shot <br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S3.png<br>  
+  # After successful creation your solution explorer will look like below screen shot <br/>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S3.png<br>
+  # Steps to [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/ModifySolution Modify Solution] like adding New Timer Job, event handler etc   
   # Set your Site URL in {!ProjectName}.UI properties as in below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S23.png<br>
   # Right click on solution name and click on Deploy from the context menu to deploy the solution<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S24.png<br>
   # After deployment it will show Deploy succeeded message in Visual Studio Status Bar as mentioned in below screen shot<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S22.png
