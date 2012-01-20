@@ -1,4 +1,4 @@
-  # After deployment of Sample Project two sample webpart will be added in the WebPart gallary of !SharePoint Site. Steps to add and configure those webparts in your page shown in below screen shots<br>
+  # After deployment of Sample Project two sample webpart will be added in the !WebPart gallary of !SharePoint Site. Steps to add and configure those webparts in your page shown in below screen shots<br>
 === Add !WebPart in !SharePoint Page ===
   # Add sample webparts in your page to view the sample on the screen<br>Go to Site -> Site Actions -> Site Settings -> Web Parts (Gallary Section)<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/SSettings.png<br>
   # Click Document in Ribbon and Click -> New Document -> New<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/WPNew.png<br>  # *Overwrite if file already exists* check box -> Select your visual webpart and click Populate Gallary<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S9.png<br>
