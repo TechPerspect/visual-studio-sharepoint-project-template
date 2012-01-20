@@ -6,8 +6,8 @@
 
 == Steps to Add New !WebPart (Simple or Visual both)  ==
 
-  # Goto !SampleProject.UI -> Select !WebParts or Visual !WebParts folder as per your choice. !WebParts folder is for simple !webpart and VisualWebParts is for Visual! WebParts
-  # Right click on folder -> Add -> New Item for Visual WebPart and Class for Simple WebPart<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S29.png
+  # Goto !SampleProject.UI -> Select !WebParts or Visual !WebParts folder as per your choice. !WebParts folder is for simple webpart and VisualWebParts is for Visual !WebParts
+  # Right click on folder -> Add -> New Item for Visual !WebPart and Class for Simple !WebPart<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S29.png
   # Refer *!SampleWebPart.cs* or *!SampleVisualWebPart* for code reference in [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=Sample%20Project.zip Sample project]
 
 == Steps to Add New Event Handler ==
