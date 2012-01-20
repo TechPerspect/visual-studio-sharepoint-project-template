@@ -1,17 +1,17 @@
 == Steps to Add New Timer Job ==
-  # Goto SampleProject.TimerJobs -> Right Click on Project Name -> Goto Add -> Class from the context menu as shown in below screen shot -> Provide the name of the class and click Add<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S25.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S26.png
+  # Goto !SampleProject.TimerJobs -> Right Click on Project Name -> Goto Add -> Class from the context menu as shown in below screen shot -> Provide the name of the class and click Add<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S25.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S26.png
   # Refer *SampleTimerJob.cs* for code reference in [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=Sample%20Project.zip Sample project]
-  # Goto SampleProject.UI project -> click on Feature folder in solution -> right click -> Add Feature from context menu -> Rename feature<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S27.png
-  # Right click on newly created feature -> Add Event Receiver from context menu. It will add .CS file in your feature folder. Implement Timer job installation code here. Refer *InstallTimerJob.EventReceiver.cs* for code reference in [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=Sample%20Project.zip Sample project]<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S28.png
+  # Goto !SampleProject.UI project -> click on Feature folder in solution -> right click -> Add Feature from context menu -> Rename feature<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S27.png
+  # Right click on newly created feature -> Add Event Receiver from context menu. It will add .CS file in your feature folder. Implement Timer job installation code here. Refer *!InstallTimerJob.!EventReceiver.cs* for code reference in [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=Sample%20Project.zip Sample project]<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S28.png
 
-== Steps to Add New WebPart (Simple or Visual both)  ==
+== Steps to Add New !WebPart (Simple or Visual both)  ==
 
-  # Goto SampleProject.UI -> Select WebParts or Visual WebParts folder as per your choice. WebParts folder is for simple webpart and VisualWebParts is for Visual WebParts
+  # Goto !SampleProject.UI -> Select !WebParts or Visual !WebParts folder as per your choice. !WebParts folder is for simple !webpart and VisualWebParts is for Visual! WebParts
   # Right click on folder -> Add -> New Item for Visual WebPart and Class for Simple WebPart<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S29.png
-  # Refer *SampleWebPart.cs* or *SampleVisualWebPart* for code reference in [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=Sample%20Project.zip Sample project]
+  # Refer *!SampleWebPart.cs* or *!SampleVisualWebPart* for code reference in [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=Sample%20Project.zip Sample project]
 
 == Steps to Add New Event Handler ==
 
-  # Goto SampleProject.EventHandlers-> Right Click on Project Name -> Goto Add -> Class from the context menu as shown in below screen shot -> Provide the name of the class and click Add<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S25.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S30.png
+  # Goto !SampleProject.!EventHandlers-> Right Click on Project Name -> Goto Add -> Class from the context menu as shown in below screen shot -> Provide the name of the class and click Add<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S25.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S30.png
   # Refer *SampleEventHandler.cs* for code reference in [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=Sample%20Project.zip Sample project]
-  # For attaching an event on List refer method *btnClick_Click* in SampleProject.UI -> WebParts -> SampleWebPart.cs in [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=Sample%20Project.zip Sample project]
+  # For attaching an event on List refer method *btnClick_Click* in !SampleProject.UI -> !WebParts -> !SampleWebPart.cs in [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=Sample%20Project.zip Sample project]
