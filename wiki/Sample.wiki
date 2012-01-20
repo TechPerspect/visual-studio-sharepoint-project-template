@@ -12,3 +12,7 @@
 	* *JS and CSS Files* - C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\LAYOUTS\{!ProjectName}<br><br>
 	* *CSharp File* - All custom c# class deployed in GAC as mentioned in below screen shots<br><br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S20.png<br><br>
   # !SharePoint maintain all WSP solution in Solution store in !SharePoint<br>Go to !SharePoint Central Administration -> System Settings -> Manager Farm Solution and validate your solution status<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S7.png<br>
+
+=== Example of Sample Project Deployed Items ===
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/SampleTimerJob Example of Timer Jobs]<br>
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/SampleUIandEventHandler Example of WebParts and Even Handlers]
