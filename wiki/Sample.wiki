@@ -20,11 +20,6 @@
   # On Click of "Create List and Attach event handler" button in Sample !WebPart will create on Test List and attach event handler on that list, The main purpose of the event is it will validate special character in the title of the item. If the title contains the special character then it will display the message as below screen shots<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S19.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S14.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S15.png<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S16.png<br>
 
 
-= Example of Timer Job =
-  # Timer job will change all the list items title whose current title is Test. The intalled duration of timer job is 15 minute.<br>Below screen shot is before execution of Timer Job<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S16.png<br>Below screen shot is after execution of Timer Job<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S17.png<br>
-
-
-
 =Example of Sample Visual !WebPart =
 On click of Show Success Message Button<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S10.png]<br><br>On click of Show Error Message Button<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S11.png]<br><br>On click of Show Handled Exception Message<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S12.png]<br><br>On Click of Show List Data with Elevated Code<br>
 [http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S13.png]
