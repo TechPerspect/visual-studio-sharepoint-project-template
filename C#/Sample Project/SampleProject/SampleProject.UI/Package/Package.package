@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ced4e617-db8c-42a7-b60b-c4503352ad6f" solutionId="ced4e617-db8c-42a7-b60b-c4503352ad6f" resetWebServer="false" name="SampleProject" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <assemblies>
     <projectOutputAssembly location="SampleProject.Common.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\SampleProject.Common\SampleProject.Common.csproj">
@@ -38,6 +38,7 @@
   <features>
     <featureReference itemId="c7776daf-98f6-4d9a-b00f-52d645b351fd" />
     <featureReference itemId="fa532e32-b6d9-4d33-a5c7-d26c9042e6c2" />
+    <featureReference itemId="21a73a41-fa42-452a-be13-12ee4ed95b83" />
   </features>
   <projectItems>
     <projectItemReference itemId="8a068b37-93fd-4527-ad0d-7f8590de0674" />

@@ -64,6 +64,9 @@
     <Compile Include="Features\InstallTimerJob\InstallTimerJob.EventReceiver.cs">
       <DependentUpon>InstallTimerJob.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\SampleEventReceiver\SampleEventReceiver.EventReceiver.cs">
+      <DependentUpon>SampleEventReceiver.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebControl\ErrorCaptureControl.cs" />
     <Compile Include="Base\BaseWebPart.cs" />
@@ -94,6 +97,9 @@
     <None Include="Features\InstallTimerJob\InstallTimerJob.feature">
       <FeatureId>{c7776daf-98f6-4d9a-b00f-52d645b351fd}</FeatureId>
     </None>
+    <None Include="Features\SampleEventReceiver\SampleEventReceiver.feature">
+      <FeatureId>{21a73a41-fa42-452a-be13-12ee4ed95b83}</FeatureId>
+    </None>
     <None Include="Images\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8dfb0d8b-6006-4ccc-89d0-1a7e82f50a89}</SharePointProjectItemId>
     </None>
@@ -121,6 +127,9 @@
     </Content>
     <Content Include="Features\InstallTimerJob\InstallTimerJob.Template.xml">
       <DependentUpon>InstallTimerJob.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\SampleEventReceiver\SampleEventReceiver.Template.xml">
+      <DependentUpon>SampleEventReceiver.feature</DependentUpon>
     </Content>
     <Content Include="Layouts\SampleProject\CSS\style.css" />
     <Content Include="Layouts\SampleProject\JS\CustomCore.js" />
