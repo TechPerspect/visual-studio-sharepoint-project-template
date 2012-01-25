@@ -12,5 +12,5 @@
 
 === Example of Sample Project Deployed Items ===
 [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/SampleTimerJob Example of Timer Jobs]<br>
-[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/SampleProjectWebPart Example of WebPart]
-[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/SampleProjectWebPart Example of WebPart]
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/SampleProjectWebPart Example of WebPart]<br>
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/EventHandler Example of Event Handler]
