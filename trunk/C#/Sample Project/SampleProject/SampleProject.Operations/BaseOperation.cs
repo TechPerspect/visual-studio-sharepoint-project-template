@@ -6,7 +6,6 @@ using Microsoft.SharePoint;
 
 namespace SampleProject.Operations
 {
-
     public abstract class BaseOperation
     {
         public SPWeb CurrentWeb;

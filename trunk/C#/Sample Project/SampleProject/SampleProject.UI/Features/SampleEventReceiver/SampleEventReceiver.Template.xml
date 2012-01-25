@@ -1,0 +1,8 @@
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" 
+         Title="SampleProject Event Receiver Example" 
+         Id="c71156f7-12be-4898-afed-653026d4b142" 
+         ReceiverAssembly="SampleProject.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=eca8a9f1107b1a7c" 
+         ReceiverClass="SampleProject.UI.Features.SampleEventReceiverEventReceiver" 
+         Scope="Site">
+  
+</Feature>
