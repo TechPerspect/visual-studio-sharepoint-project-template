@@ -16,29 +16,29 @@ namespace SampleProject.UI.UserControls
         {
         }
 
-          protected void btnSuccess_Click(object sender, EventArgs e)
+        protected void btnSuccess_Click(object sender, EventArgs e)
         {
-            ErrorCaptureControl.SetSuccessMessageforUI("This is test success message");  
+            ErrorCaptureControl.SetSuccessMessageforUI("This is test success message");
         }
 
         protected void btnError_Click(object sender, EventArgs e)
         {
-            ErrorCaptureControl.SetErrorMessageforUI("This is test error message");  
+            ErrorCaptureControl.SetErrorMessageforUI("This is test error message");
         }
 
         protected void btnException_Click(object sender, EventArgs e)
         {
             try
             {
-                throw new Exception("This is custom exception");  
+                throw new Exception("This is custom exception");
             }
             catch (Exception ex)
             {
-                new CustomExceptions(ex, HttpContext.Current, SPContext.Current.Web); 
+                new CustomExceptions(ex, HttpContext.Current, SPContext.Current.Web);
             }
         }
 
-     
+
         protected void btnListData_Click(object sender, EventArgs e)
         {
             ElevatedCodeHelper.ExecuteElevatedCode(SPContext.Current.Web, delegate(SPWeb elevaedWeb)
@@ -46,9 +46,9 @@ namespace SampleProject.UI.UserControls
                 String sListNames = String.Empty;
                 foreach (SPList list in elevaedWeb.Lists)
                 {
-                    sListNames +=  list.Title + "<br>";
+                    sListNames += list.Title + "<br>";
                 }
-                
+
                 Literal1.Text = sListNames;
                 //Display list or do list operation
             });

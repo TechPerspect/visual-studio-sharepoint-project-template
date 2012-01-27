@@ -116,6 +116,7 @@
     <None Include="TEMPLATE\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8a068b37-93fd-4527-ad0d-7f8590de0674}</SharePointProjectItemId>
     </None>
+    <None Include="VisualWebParts\SampleVisualWebPart\SampleVisualWebPart.webpart" />
     <None Include="VisualWebParts\SampleVisualWebPart\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{50623cb1-1719-4b50-9d18-2ccf9e1f43e2}</SharePointProjectItemId>
     </None>
@@ -133,6 +134,7 @@
     </Content>
     <Content Include="Layouts\SampleProject\CSS\style.css" />
     <Content Include="Layouts\SampleProject\JS\CustomCore.js" />
+    <Content Include="VisualWebParts\SampleVisualWebPart\Elements.xml" />
     <Content Include="VisualWebParts\SampleVisualWebPart\HVWP.ascx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
