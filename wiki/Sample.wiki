@@ -10,6 +10,6 @@
   # !SharePoint maintain all WSP solution in Solution store in !SharePoint<br>Go to !SharePoint Central Administration -> System Settings -> Manager Farm Solution and validate your solution status<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S7.png<br>
 
 === Example of Sample Project Deployed Items ===
-[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/SampleTimerJob Example of Timer Jobs]<br>
 [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/SampleProjectWebPart Example of WebPart]<br>
 [http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/SampleEventHandler Example of Event Handler]
+[http://code.google.com/p/visual-studio-sharepoint-project-template/wiki/SampleTimerJob Example of Timer Jobs]<br>
