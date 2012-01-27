@@ -8,3 +8,10 @@
 === Example of Sample Visual !WebPart ===
 On click of Show Success Message Button<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S10.png]<br><br>On click of Show Error Message Button<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S11.png]<br><br>On click of Show Handled Exception Message<br>[http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S12.png]<br><br>On Click of Show List Data with Elevated Code<br>
 [http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S13.png]
+
+
+=== Steps to Add or Modify !WebPart (Simple or Visual both)  ===
+
+  # Goto !SampleProject.UI -> Select !WebParts or Visual !WebParts folder as per your choice. !WebParts folder is for simple webpart and !VisualWebParts is for Visual !WebParts
+  # Right click on folder -> Add -> New Item for Visual !WebPart and Class for Simple !WebPart<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S29.png
+  # Refer *!SampleWebPart.cs* or *!SampleVisualWebPart* for modifying existing code used for WebParts sample in [http://code.google.com/p/visual-studio-sharepoint-project-template/downloads/detail?name=Sample%20Project%20C%23%201.0.zip Sample project]<br>http://visual-studio-sharepoint-project-template.googlecode.com/svn/wiki/Images/S37.png
