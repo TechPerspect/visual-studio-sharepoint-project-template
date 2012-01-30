@@ -1,0 +1,10 @@
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.EventHandlers\bin\Debug\SPTemplate.EventHandlers.dll
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.EventHandlers\bin\Debug\SPTemplate.EventHandlers.pdb
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.EventHandlers\bin\Debug\SPTemplate.EventHandlers.xml
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.EventHandlers\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.EventHandlers\obj\Debug\SPTemplate.EventHandlers.Resources.resources
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.EventHandlers\obj\Debug\ResGen.read.1.tlog
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.EventHandlers\obj\Debug\ResGen.write.1.tlog
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.EventHandlers\obj\Debug\SPTemplate.EventHandlers.dll
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.EventHandlers\obj\Debug\SPTemplate.EventHandlers.xml
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.EventHandlers\obj\Debug\SPTemplate.EventHandlers.pdb

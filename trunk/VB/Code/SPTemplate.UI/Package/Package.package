@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="d832f612-81d0-4e08-83ee-28a4d1e45f55" solutionId="d832f612-81d0-4e08-83ee-28a4d1e45f55" resetWebServer="false" name="SPTemplate.UI" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="$safeprojectname$.Common.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\$customUsing$.Common\$safeprojectname$.Common.vbproj">
+      <safeControls>
+        <safeControl assemblyName="$safeprojectname$.Common.dll" namespaceName="$safeprojectname$.Common" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="$safeprojectname$.EventHandlers.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\$customUsing$.EventHandlers\$safeprojectname$.EventHandlers.vbproj">
+      <safeControls>
+        <safeControl assemblyName="$safeprojectname$.EventHandlers.dll" namespaceName="$safeprojectname$.EventHandlers" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="$safeprojectname$.TimerJobs.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\$customUsing$.TimerJobs\$safeprojectname$.TimerJobs.vbproj">
+      <safeControls>
+        <safeControl assemblyName="$safeprojectname$.TimerJobs.dll" namespaceName="$safeprojectname$.TimerJobs" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="$safeprojectname$.Exceptions.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\$customUsing$.Exceptions\$safeprojectname$.Exceptions.vbproj">
+      <safeControls>
+        <safeControl assemblyName="$safeprojectname$.Exceptions" namespaceName="$safeprojectname$.Exceptions" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="$safeprojectname$.Operations.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\$customUsing$.Operations\$safeprojectname$.Operations.vbproj">
+      <safeControls>
+        <safeControl assemblyName="$safeprojectname$.Operations.dll" namespaceName="$safeprojectname$.Operations" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="$safeprojectname$.UI.dll" deploymentTarget="GlobalAssemblyCache">
+      <safeControls>
+        <safeControl assemblyName="$safeprojectname$.UI.dll" namespaceName="$safeprojectname$.UI.WebParts" typeName="*" isSafeAgainstScript="false" />
+        <safeControl assemblyName="$safeprojectname$.UI.dll" namespaceName="$safeprojectname$.UI.WebControls" typeName="*" isSafeAgainstScript="false" />
+        <safeControl assemblyName="$safeprojectname$.UI.dll" namespaceName="$safeprojectname$.UI.Features" typeName="*" isSafeAgainstScript="false" />
+        <safeControl assemblyName="$safeprojectname$.UI.dll" namespaceName="$safeprojectname$.UI.UserControls" typeName="*" isSafeAgainstScript="false" />
+        <safeControl assemblyName="$safeprojectname$.UI.dll" namespaceName="$safeprojectname$.UI" isSafe="false" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="651096dc-8f4b-417c-a65d-0ea4261310e9" />
+    <featureReference itemId="4dca9057-146d-442e-9d05-7bc5f8346a3e" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="662e8253-770f-491a-bc41-ea4974154852" />
+    <projectItemReference itemId="f081a561-c6c5-431d-ac1e-5171cff9d45d" />
+    <projectItemReference itemId="d7b45c2c-7903-4158-b256-0e15adf82194" />
+    <projectItemReference itemId="7b307b2c-9790-4f0d-bfa6-a7de4c59452b" />
+  </projectItems>
+</package>

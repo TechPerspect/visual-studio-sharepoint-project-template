@@ -1,0 +1,7 @@
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.UI\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.UI\obj\Debug\SPTemplate.UI.replaceprojectname.resources
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.UI\obj\Debug\ResGen.read.1.tlog
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.UI\obj\Debug\ResGen.write.1.tlog
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.UI\obj\Debug\SPTemplate.UI.dll
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.UI\obj\Debug\SPTemplate.UI.xml
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.UI\obj\Debug\SPTemplate.UI.pdb
