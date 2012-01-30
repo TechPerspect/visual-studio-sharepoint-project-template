@@ -1,0 +1,10 @@
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.Common\bin\Debug\SPTemplate.Common.dll
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.Common\bin\Debug\SPTemplate.Common.pdb
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.Common\bin\Debug\SPTemplate.Common.xml
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.Common\obj\Debug\SPTemplate.Common.Resources.resources
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.Common\obj\Debug\ResGen.read.1.tlog
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.Common\obj\Debug\ResGen.write.1.tlog
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.Common\obj\Debug\SPTemplate.Common.dll
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.Common\obj\Debug\SPTemplate.Common.xml
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.Common\obj\Debug\SPTemplate.Common.pdb

@@ -1,0 +1,16 @@
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\bin\Debug\SPTemplate.TimerJobs.dll
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\bin\Debug\SPTemplate.TimerJobs.pdb
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\bin\Debug\SPTemplate.TimerJobs.xml
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\obj\Debug\SPTemplate.TimerJobs.Resources.resources
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\obj\Debug\ResGen.read.1.tlog
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\obj\Debug\ResGen.write.1.tlog
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\obj\Debug\SPTemplate.TimerJobs.dll
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\obj\Debug\SPTemplate.TimerJobs.xml
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\obj\Debug\SPTemplate.TimerJobs.pdb
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\bin\Debug\SPTemplate.Common.dll
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\bin\Debug\SPTemplate.Exceptions.dll
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\bin\Debug\SPTemplate.Common.pdb
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\bin\Debug\SPTemplate.Common.xml
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\bin\Debug\SPTemplate.Exceptions.pdb
+E:\Projects\OpenSource\SharePoint Project Template\visual-studio-sharepoint-project-template\SPTemplate-VB\SPTemplate.TimerJobs\bin\Debug\SPTemplate.Exceptions.xml

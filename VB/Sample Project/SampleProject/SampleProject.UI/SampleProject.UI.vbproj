@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{C37EB327-290D-4E66-A211-5E454E1225D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SampleProject.UI</RootNamespace>
+    <AssemblyName>SampleProject.UI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{D59BE175-2ED0-4C54-BE3D-CDAA9F3214C8};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SandboxedSolution>False</SandboxedSolution>
+    <AssemblyDeploymentTarget>GlobalAssemblyCache</AssemblyDeploymentTarget>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SampleProject.UI</DocumentationFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SPTemplate.UI.xml</DocumentationFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.SharePoint" />
+    <Import Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BaseWebPart.vb" />
+    <Compile Include="Elements\Resources\SampleProject.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SampleProject.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Features\ErrorCapturing\ErrorCapturing.EventReceiver.vb">
+      <DependentUpon>ErrorCapturing.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\InstallTimerJob\InstallTimerJob.EventReceiver.vb">
+      <DependentUpon>InstallTimerJob.feature</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="VisualWebParts\SampleVisualWebPart\SampleVisualWebPart.vb" />
+    <Compile Include="VisualWebParts\SampleVisualWebPart\HVWP.ascx.designer.vb">
+      <DependentUpon>HVWP.ascx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualWebParts\SampleVisualWebPart\HVWP.ascx.vb">
+      <DependentUpon>HVWP.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\ErrorCaptureControl.vb" />
+    <Compile Include="WebParts\SampleWebPart.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d7b45c2c-7903-4158-b256-0e15adf82194}</SharePointProjectItemId>
+    </None>
+    <None Include="Elements\ErrorCapturing\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bbb2b801-3f99-46ef-9761-bde9d993ecc8}</SharePointProjectItemId>
+    </None>
+    <None Include="Elements\Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e7f19e1f-d48a-496a-bb6a-db455c427598}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\ErrorCapturing\ErrorCapturing.feature">
+      <FeatureId>{651096dc-8f4b-417c-a65d-0ea4261310e9}</FeatureId>
+    </None>
+    <None Include="Features\InstallTimerJob\InstallTimerJob.feature">
+      <FeatureId>{4dca9057-146d-442e-9d05-7bc5f8346a3e}</FeatureId>
+    </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7b307b2c-9790-4f0d-bfa6-a7de4c59452b}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{662e8253-770f-491a-bc41-ea4974154852}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{d832f612-81d0-4e08-83ee-28a4d1e45f55}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="TEMPLATE\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f081a561-c6c5-431d-ac1e-5171cff9d45d}</SharePointProjectItemId>
+    </None>
+    <None Include="VisualWebParts\SampleVisualWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1b886348-404b-4e18-8955-c3c3b5d1a7d4}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CONTROLTEMPLATES\SampleProject\" />
+    <Folder Include="Images\SampleProject\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Elements\ErrorCapturing\Elements.xml" />
+    <Content Include="Features\ErrorCapturing\ErrorCapturing.Template.xml">
+      <DependentUpon>ErrorCapturing.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\InstallTimerJob\InstallTimerJob.Template.xml">
+      <DependentUpon>InstallTimerJob.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\SampleProject\CSS\style.css" />
+    <Content Include="Layouts\SampleProject\JS\CustomCore.js" />
+    <Content Include="VisualWebParts\SampleVisualWebPart\HVWP.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Elements\Resources\SampleProject.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SampleProject.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SampleProject.Common\SampleProject.Common.vbproj">
+      <Project>{1B9F048E-66A8-4EDD-805D-4691628C7CF4}</Project>
+      <Name>SampleProject.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleProject.Exceptions\SampleProject.Exceptions.vbproj">
+      <Project>{8F89B8BF-F073-4F6D-BE21-BB64732A7C91}</Project>
+      <Name>SampleProject.Exceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleProject.Operations\SampleProject.Operations.vbproj">
+      <Project>{33F8640B-5175-49AC-B0FE-568694A15E7B}</Project>
+      <Name>SampleProject.Operations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleProject.TimerJobs\SampleProject.TimerJobs.vbproj">
+      <Project>{6E6DC25C-8CC7-4872-88D3-1A0F4FF1D1C6}</Project>
+      <Name>SampleProject.TimerJobs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>
